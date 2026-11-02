@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="theme-color" content="#007bff">
+    <title>Zepp GPX Tracker</title>
+    <link rel="manifest" href="manifest.json">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/png" href="icon-512.png">
+</head>
+<body>
+
+<div class="container">
+    <h1>Analisador Zepp (Bip Max)</h1>
+    
+    <div class="file-input">
+        <label class="custom-file-upload">
+            <input type="file" id="gpxFile" accept=".gpx">
+            Selecionar Arquivo GPX
+        </label>
+        <p id="fileName"></p>
+    </div>
+
+    <div class="results" id="resultsBox">
+        <div class="card">
+            <h3>Tempo Total de Atividade</h3>
+            <p id="totalTime">00:00:00</p>
+        </div>
+        <div class="card">
+            <h3>Frequência Cardíaca (Média / Máx)</h3>
+            <p id="heartRate">0 / 0 BPM</p>
+        </div>
+        <div class="card">
+            <h3>Calorias Totais Estimadas</h3>
+            <p id="totalCalories">0 kcal</p>
+        </div>
+    </div>
+</div>
+
+<script src="app.js"></script>
+</body>
+</html>
+
