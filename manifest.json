@@ -1,6 +1,8 @@
 {
+  "id": "/monitorcardiaco/",
   "name": "Zepp GPX Tracker",
   "short_name": "ZeppTracker",
+  "description": "Aplicativo de teste para capturar e analisar dados de tempo, batimentos cardíacos e calorias de arquivos GPX do Zepp.",
   "start_url": "index.html",
   "display": "standalone",
   "background_color": "#f4f4f9",
@@ -9,7 +11,7 @@
   "icons": [
     {
       "src": "icon-512.png",
-      "sizes": "512x512",
+      "sizes": "912x912",
       "type": "image/png",
       "purpose": "any maskable"
     },
